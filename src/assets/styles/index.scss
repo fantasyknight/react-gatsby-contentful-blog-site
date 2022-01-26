@@ -1,0 +1,20 @@
+@import './variables';
+@import './mixins';
+@import './utils';
+
+body {
+  background-color: aliceblue;
+}
+
+.page-wrapper {
+  padding: 4rem;
+
+  .blog-card {
+    width: 250px;
+    height: 300px;
+  }
+
+  .blog-card:hover {
+    box-shadow: 0px 0px 20px 15px #ddd;
+  }
+}
